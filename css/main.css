@@ -58,12 +58,11 @@ button:hover {
     display: flex;
     padding-top: 50px;
     display: flex;
-    text-align: center;
+    justify-content: center;
     background: lightgray;
-}
-
-.h2-portfolio {
     font-size: 36px;
+    margin: 0;
+    padding: 0;
 }
 
 .all-cards {
@@ -71,7 +70,7 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;  
-    margin-bottom: 50px;
+    padding-bottom: 50px;
   }
   
   .card-container {
@@ -108,16 +107,36 @@ button:hover {
 
   /* About Me Section */
 
+  .about-container {
+    background: url(../img/about\ background.jpeg);
+    background-size: cover;
+    min-height: 700px;
+  }
+
   .about-me {
       display: flex;
       justify-content: center;
       font-size: 36px;
   }
 
-  .about {
-      font-size: 36px;
+  ul {
+    margin: 0;
+  }
+
+  .skills {
+    margin: 0;
   }
 
 
-  
-  
+
+  /* Contact Me Section */
+
+  .contact-me {
+    display: flex;
+      justify-content: center;
+      font-size: 36px;
+  }
+
+  .contact-container {
+    background: lightgray;
+  }

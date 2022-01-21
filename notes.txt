@@ -1,0 +1,2 @@
+Example 1  – Guess the Word Game project: “A fun and interactive game built with JavaScript and a JSON file. Try to guess the word before your guesses run out. Win or lose, play as many times as you like!”
+Example 2 – Unplugged project: “A multipage website for a tech industry retreat that uses mobile responsive design. The site features a Google Map integration and responsive elements to create a clean, informative site.”

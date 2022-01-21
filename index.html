@@ -7,37 +7,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><Tyler Thietje | Web Developer/></title>
     <link rel="stylesheet" href="/css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&family=Lexend+Tera:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<header>
-    <nav>
+  <main>
+    <header>
+        <nav>
+          <ul>
+            <li>Projects</li>
+            <li>Skills</li>
+            <li>About</li>
+            <li>Contact Me</li>
+          </ul>
+        </nav>
 
-    </nav>
-</header>
-
-<!-- Hero section -->
-
-    <main class="hero-container">
-        <div class="content-area">
-          <div class="hero-content">
-            <h1>Hi, My Name Is Tyler Thietje</h1>
-            <p class="hero-p">And I am a Web Developer</p>
-            <button>Let's Create Something Fun!</button>
+        <div class="hero">
+          <div class="hero-title">
+            <h1>Hello, I'm Tyler Thietje!</h1>
+            <p class="hero-desc">I am a Front End Web Developer who builds custom, attractive, and responsive websites to fit your needs.</p>
           </div>        
         </div>
+    </header>
 
-<!--Portfolio section-->  
 
-<div class="portfolio">
-    <h2>Portfolio of Work</h2>
-</div>
-        <div class="all-cards">
+    <!--Portfolio section-->  
+
+    <section class="portfolio">
+
+        <h2 class="portfolio-title">Projects</h2>
+
+        <div class="project-cards">
             <div class="card-container">
-              <div class="image"></div> 
+              <div class="image"><a href="https://yf6sh.csb.app/" target="_blank"><img src="/img/sticky-notes-app.png"></a></div> 
               <div class="text-container">
-                <h2 class="prj-title">Project Title</h2>
-                <span class="skills">HTML, CSS, Git/Github</span>
-                <p class="prj-description">I don’t ‘need’ to drink. I can quit anytime I want! Hello, little man. I will destroy you! Kids have names? You won’t have time for sleeping, soldier, not with all the bed making you’ll be doing. When the lights go out, it’s nobody’s business what goes on between two consenting adults.</p>
+                <h2 class="prj-title">Sticky Notes App</h2>
+                <div class="skills-card"><span>Skills:</span> JavaScript, React, CSS, HTML</div>
+                <div class="tools-card"><span>Tools:</span> CodeSandbox</div>
+                <p class="prj-description">This is a Greenfield project built with React that allows a user to create, delete, and search sticky notes. To create this app I used JavaScript and React primarily in the CodeSandbox environment. This allowed me to practice functional components, stateful components, props, state, and ES6 modules and syntax. 
+                </p>
               </div>
               <div class="card-button">
                 <button class="btn">View Project</button>
@@ -45,11 +56,13 @@
             </div>
             
             <div class="card-container">
-              <div class="image"></div> 
+              <div class="image"><a href="https://4ghc2.csb.app/" target="_blank"><img src="/img/hotel-booking-ui.png"></a></div> 
               <div class="text-container">
-                <h2 class="prj-title">Project Title</h2>
-                <span class="skills">HTML, CSS, Git/Github</span>
-                <p class="prj-description">I don’t ‘need’ to drink. I can quit anytime I want! Hello, little man. I will destroy you! Kids have names? You won’t have time for sleeping, soldier, not with all the bed making you’ll be doing. When the lights go out, it’s nobody’s business what goes on between two consenting adults.</p>
+                <h2 class="prj-title">Hotel Booking UI</h2>
+                <span class="skills">JavaScript, React, CSS, HTML</span>
+                <span class="tools">CodeSandbox</span>
+                <p class="prj-description">This is an example UI from a fictional Hotel search site. The UI allows you to search for hotel rooms and  returns results that match your search criteria that you entered. This was built using React and Javascript in the CodeSandbox environment.
+                </p>
               </div>
               <div class="card-button">
                 <button class="btn">View Project</button>
@@ -57,11 +70,13 @@
             </div>
             
             <div class="card-container">
-              <div class="image"></div> 
+              <div class="image"><a href="https://tylerthietje.github.io/github-repo-gallery/" target="_blank"><img src="/img/github-repo-gallery.png"></a></div> 
               <div class="text-container">
-                <h2 class="prj-title">Project Title</h2>
-                <span class="skills">HTML, CSS, Git/Github</span>
-                <p class="prj-description">I don’t ‘need’ to drink. I can quit anytime I want! Hello, little man. I will destroy you! Kids have names? You won’t have time for sleeping, soldier, not with all the bed making you’ll be doing. When the lights go out, it’s nobody’s business what goes on between two consenting adults.</p>
+                <h2 class="prj-title">GitHub Repo Gallery</h2>
+                <span class="skills">HTML, CSS, JavaScript, APIs, JSON</span>
+                <span class="tools">VS Code, Git/Github</span>
+                <p class="prj-description">This project showcases the repositories in my GitHub account in a visual UI. Additionally you can click on each project listed to see additional details about the project on a separate page. Finally, there is a search function to search for projects by keyword, or even character to list only projects containing your search terms. This was built using HTML, CSS, JavaScript, and APIs in a VS Code environment and hosted on GitHub pages.
+                </p>
               </div>
               <div class="card-button">
                 <button class="btn">View Project</button>
@@ -69,72 +84,90 @@
             </div>
             
             <div class="card-container">
-              <div class="image"></div> 
+              <div class="image"><a href="https://tylerthietje.github.io/guess-the-word/" target="_blank"><img src="/img/guess-the-word.png"></a></div> 
               <div class="text-container">
-                <h2 class="prj-title">Project Title</h2>
-                <span class="skills">HTML, CSS, Git/Github</span>
-                <p class="prj-description">I don’t ‘need’ to drink. I can quit anytime I want! Hello, little man. I will destroy you! Kids have names? You won’t have time for sleeping, soldier, not with all the bed making you’ll be doing. When the lights go out, it’s nobody’s business what goes on between two consenting adults.</p>
+                <h2 class="prj-title">Guess the Word Game</h2>
+                <span class="skills">HTML, CSS, JavaScript, APIs, JSON</span>
+                <span class="tools">VS Code, Git/Github</span>
+                <p class="prj-description">This is a fun and simple game where the goal is to guess the random word one letter at a time, in 8 guesses or less. Whether you win or lose, an appropriate message is displayed and you are given the option to play again. This was built using HTML, CSS, JavaScript, APIs and JSON files in a VSCode environment and hosted on GitHub pages.
+                </p>
               </div>
               <div class="card-button">
                 <button class="btn">View Project</button>
                 </div>
-            </div>
-            </div>
+              </div>
 
-<!-- About Section -->
-<div class="about-container">
-<div class="about-me">
-    <h2>About Me</h2>
-</div>
-<article id="about">
-  <div class="headshot"></div>
-  <section class="about"> 
-    <p class="background">
-    Edam cheesy grin red leicester. Swiss parmesan cheesy feet who moved my cheese taleggio st. agur blue cheese melted cheese cheddar. Pecorino mascarpone dolcelatte stilton cauliflower cheese halloumi the big cheese st. agur blue cheese. Cheese and wine gouda airedale parmesan croque monsieur port-salut fondue jarlsberg. Chalk and cheese melted cheese airedale jarlsberg.
-    </p> 
-    <div class="skills">
-      <ul>
-        <li>Skill 1</li>
-        <li>Skill 2</li>
-        <li>Skill 3</li>
-        <li>Skill 4</li>
-        <li>Skill 5</li>
-        <li>Skill 6</li>
-        <li>Skill 7</li>
-        <li>Skill 8</li>
-      </ul>
-    </div>           
-  </section>
-</article>
-</div>
+            <!-- <div class="card-container">
+              <div class="image"><a href="https://tylerthietje.github.io/unplugged-site/" target="_blank"><img src="/img/unplugged-responsive-site.png"></a></div> 
+              <div class="text-container">
+                <h2 class="prj-title">"Unplugged" Responsive Web Site</h2>
+                <span class="skills">HTML, CSS, Media Queries, Flexbox</span>
+                <span class="tools">Sublime Text, GitHub</span>
+                <p class="prj-description">This is a multi-page website for a fictional corporate retreat. This is a responsive website that resizes for desktop, tablet and mobile screens to show the information in an easy to view format at all sizes. This was built using HTML, CSS, Flexbox, and media queries in Sublime text and hosted on GitHub pages. 
+                </p>
+              </div>
+              <div class="card-button">
+                <button class="btn">View Project</button>
+                </div>
+            </div> -->
+    </section>
 
-<!-- Contact Me Section -->
-<div class="contact-container">
-<div class="contact-me">
-  <h2>Contact Me</h2>
-  </div>
+    <!-- Skills Section -->
+    <section class="skills">
+      <h2>Skills and Tools</h2>
+      <h3 class="skills-title">Skills</h3>
+          <div class="skills-list">
+            <ul>
+              <div class="skillz"><li>HTML5</li></div>
+              <div class="skillz"><li>CSS3</li></div>
+              <div class="skillz"><li>Flexbox</li></div>
+              <div class="skillz"><li>JavaScript</li></div>
+              <div class="skillz"><li>APIs</li></div>
+              <div class="skillz"><li>React</li></div>
+              <div class="skillz"><li>Git and Github</li></div>
+              <div class="skillz"><li>Command Line</li></div>
+            </ul>
+          </div>
 
-  <article class="contact-info">
-<div class="left">
-  <ul>
-    <li>Tyler Thietje</li>
-    <li>tylerthietje@gmail.com</li>
-    <li>402.580.4208</li>
-  </ul>
-</div>
-<div class="right">
-  <ul>
-      <li>Github</li>
-      <li>LinkedIn</li>
-      <li>Third Item</li>
-  </ul>
-</div>
-</article>
-</div>
+          <h3 class="toolz-title">Tools</h3>
+          <div class="toolz-list">
+            <ul>
+              <li>Photoshop</li>
+              <li>VS Code</li>
+              <li>Git and GitHub</li>
+              <li>CodeSandbox</li>
+            </ul>
+          </div>           
+    </section>
 
+    <!-- About Me Section -->
+    <section class="about">
+      <h2 class="about-title">About Me</h2>
+      <div class="about-headshot"><img src="/img/headshot 12_2021.jpeg" height="200"></div>
+      <div class="about-narrative">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. </p>
+      </div>
+    </section>
 
+    <!-- Contact Me Section -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+          <ul>
+            <li>Tyler Thietje</li>
+            <li>tylerthietje@gmail.com</li>
+            <li>402.580.4208</li>
+          </ul>
+        </div>
+      <div class="contact-social">
+        <ul>
+            <li>Github</li>
+            <li>LinkedIn</li>
+        </ul>
+      </div>
+    </section>
 
-    </main> 
+  </main> 
 </body>
 </html>
 

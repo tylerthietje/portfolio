@@ -1,7 +1,7 @@
 /* font-family: 'Lekton', sans-serif;
  font-family: 'Lexend Tera', sans-serif; */
 
- /* Global styles */
+ /* GLOBAL STYLES */
 
 body {
     margin: 0;
@@ -10,11 +10,12 @@ body {
     font-family: 'Lekton', sans-serif;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Lexend Tera', sans-serif;
 }
 
-/* Navigation */
+
+/* NAVIGATION */
 
 nav ul {
     padding: 25px;
@@ -26,10 +27,18 @@ nav ul {
 }
 
 nav ul li {
-    padding: 10px;
+    padding: 20px 20px 0 20px;
 }
 
-/* Hero area */
+nav ul li:nth-child(4) {
+    background-color: #21f721;
+    padding: 20px;
+    border-radius: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+/* HERO AREA */
 
 header {
     background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)),url(/img/bg1.jpeg);
@@ -48,15 +57,28 @@ header {
     /* border: red solid 1px; */
 }
 
-/* Projects */
+.hero-title h1 {
+    font-size: 42px;
+    margin-top: 0;
+}
+
+.hero-desc {
+    font-size: 24px;
+    justify-content: center;
+}
+
+
+/* PORTFOLIO/PROJECTS */
 
 .portfolio {
     background-color: #eeefda;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .portfolio-title {
-    padding: 20px;
+    padding: 35px;
+    font-size: 32px;
     margin: 0;
 }
 
@@ -68,65 +90,99 @@ header {
     justify-content: space-around;  
   }
   
-  .card-container {
+.card-container {
     background: white;
-    width: 350px;
+    width: 400px;
     margin: 25px;
     border-radius: 25px;
     text-align: left;
     box-shadow: 2px 2px 7px 4px rgba(20,20,20,0.4);
-  }
-  
-  .text-container {
-      padding: 20px;
-  }
+}
 
-  span {
-      font-weight: bold;
-  }
-  
-  .image img {
+.text-container {
+    padding: 25px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.image img {
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
     width: 100%;
     height: 200px;
     border-bottom: 2px #eeefda solid;
     filter: sepia(1%);
-  }
+}
 
-  .image img {
-      
-  }
-  
-  .card-button {
+.card-button {
     display: flex;
     justify-content: center;
-  }
-  
-  .btn {
-    margin-bottom: 20px;
     align-items: flex-end;
+}
 
-  }
+.btn {
+    margin-bottom: 20px;
+}
+/* End of Project Cards */
 
-  /* About Me Section */
+/*  SKILLS  */
 
-  .about-container {
+.skills {
+    color: #cac691;
+    margin: 0;
+    background-color: #152a3e;
+    text-align: center;
+}
+
+.skills-title {
+    margin: 0;
+    padding: 20px;
+}
+
+.skills-ul {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.skills-ul li {
+    list-style-type: none;
+    padding: 20px;
+    border-radius: 2px;
+    font-weight: bolder;
+    color: #152a3e;
+    background-color: #cac691;
+    box-shadow: 2px 2px 7px 4px rgba(20,20,20,0.4);
+}
+
+
+/* ABOUT */
+
+.about {
+
+}
+
+.about-container {
     background: url(../img/about\ background.jpeg);
     background-size: cover;
     min-height: 700px;
-  }
+}
 
-  .about-me {
-      display: flex;
-      justify-content: center;
-      font-size: 36px;
-  }
+.about-me {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+}
 
-  ul {
+ul {
     margin: 0;
-  }
+}
 
-  .skills {
-    margin: 0;
-  }
+
+/* CONTACT */
+
+.contact {
+    background-color: ;
+}

@@ -1,2 +1,9 @@
 Example 1  – Guess the Word Game project: “A fun and interactive game built with JavaScript and a JSON file. Try to guess the word before your guesses run out. Win or lose, play as many times as you like!”
 Example 2 – Unplugged project: “A multipage website for a tech industry retreat that uses mobile responsive design. The site features a Google Map integration and responsive elements to create a clean, informative site.”
+
+Example of about narative:
+    Hello! I'm Emily, a Front End Developer with deep roots in the Food & Hospitality Industry. My coding journey began in April 2020 when I realized my love for creating events and culinary experiences could transcend beyond the plate.
+
+    I am passionate about building user experiences from scratch, starting with an idea or vision and seeing it through to the final experience. Whether it be building a multi-page website for a private psychotherapy practice, catering an event for 500 guests, or writing recipes for home-cooks, I enjoy the process of bringing something to life. While I openly admit to being a rule-follower, I also thrive through creative expression which is what I love most about coding and web development. Learn the rules to build solid, reliable structures, but then color outside the lines because anything is possible and creativity has no limits.
+
+    When not at my computer, I enjoy yoga, tennis, reading, watching Top Chef, traveling, dining out and exploring Detroit. I love my family and my dog, Grizzly. And, of course, I will always love to cook.

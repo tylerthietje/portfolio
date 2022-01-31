@@ -7,3 +7,10 @@ Example of about narative:
     I am passionate about building user experiences from scratch, starting with an idea or vision and seeing it through to the final experience. Whether it be building a multi-page website for a private psychotherapy practice, catering an event for 500 guests, or writing recipes for home-cooks, I enjoy the process of bringing something to life. While I openly admit to being a rule-follower, I also thrive through creative expression which is what I love most about coding and web development. Learn the rules to build solid, reliable structures, but then color outside the lines because anything is possible and creativity has no limits.
 
     When not at my computer, I enjoy yoga, tennis, reading, watching Top Chef, traveling, dining out and exploring Detroit. I love my family and my dog, Grizzly. And, of course, I will always love to cook.
+
+
+    TO DO LIST:
+    
+    3. Style hero h1 and h2 better
+    4. add media queries
+    5. 

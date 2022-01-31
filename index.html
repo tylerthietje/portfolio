@@ -8,9 +8,11 @@
     <title><Tyler Thietje | Web Developer/></title>
     <link rel="stylesheet" href="/css/main.css">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&family=Lexend+Tera:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,700;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -18,17 +20,17 @@
     <header>
         <nav>
           <ul>
-            <li>Projects</li>
-            <li>Skills</li>
-            <li>About</li>
-            <li>Contact Me</li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skillz">Skills</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact Me</a></li>
           </ul>
         </nav>
 
         <div class="hero">
-          <div class="hero-title">
-            <h1>Hello, I'm Tyler Thietje!</h1>
-            <p class="hero-desc">I am a Front End Web Developer who builds custom, attractive, and responsive websites to fit your needs.</p>
+          <div class="hero-content">
+            <h1 class="hero-title">Hello, I'm Tyler Thietje!</h1>
+            <h2 class="hero-subtitle">I am a Front End Web Developer who builds custom, attractive, and responsive websites to fit your needs.</h2>
           </div>        
         </div>
     </header>
@@ -36,11 +38,14 @@
 
     <!--Portfolio section-->  
 
-    <section class="portfolio">
+    <a id="projects">
+    <section class="portfolio"></a>
 
         <h2 class="portfolio-title">Projects</h2>
 
         <div class="project-cards">
+
+          <!-- Sticky Notes App -->
             <div class="card-container">
               <div class="image"><a href="https://yf6sh.csb.app/" target="_blank"><img src="/img/sticky-notes-app.png"></a></div> 
               <div class="text-container">
@@ -51,10 +56,11 @@
                 </p>
               </div>
               <div class="card-button">
-                <button class="btn">View Project</button>
+                <a href="https://yf6sh.csb.app/" target="_blank"><button class="btn sticky-notes">View Project</button></a>
                 </div>
             </div>
-            
+
+            <!-- Hotel Booking UI -->
             <div class="card-container">
               <div class="image"><a href="https://4ghc2.csb.app/" target="_blank"><img src="/img/hotel-booking-ui.png"></a></div> 
               <div class="text-container">
@@ -65,10 +71,11 @@
                 </p>
               </div>
               <div class="card-button">
-                <button class="btn">View Project</button>
+                <a href="https://4ghc2.csb.app/" target="_blank"><button class="btn hotel-booking-ui">View Project</button></a>
                 </div>
             </div>
-            
+
+            <!-- GitHub Repo Gallery -->
             <div class="card-container">
               <div class="image"><a href="https://tylerthietje.github.io/github-repo-gallery/" target="_blank"><img src="/img/github-repo-gallery.png"></a></div> 
               <div class="text-container">
@@ -79,10 +86,11 @@
                 </p>
               </div>
               <div class="card-button">
-                <button class="btn">View Project</button>
-                </div>
+                <a href="https://tylerthietje.github.io/github-repo-gallery/" target="_blank"><button class="btn github-repo-gallery">View Project</button></a>
+              </div>
             </div>
-            
+
+            <!-- Guess the Word Game -->
             <div class="card-container">
               <div class="image"><a href="https://tylerthietje.github.io/guess-the-word/" target="_blank"><img src="/img/guess-the-word.png"></a></div> 
               <div class="text-container">
@@ -93,31 +101,33 @@
                 </p>
               </div>
               <div class="card-button">
-                <button class="btn">View Project</button>
+                <a href="https://tylerthietje.github.io/guess-the-word/" target="_blank"><button class="btn guess-the-word">View Project</button></a>
                 </div>
               </div>
 
+            <!-- Unplugged Responsive Website -->
             <div class="card-container">
               <div class="image"><a href="https://tylerthietje.github.io/unplugged-site/" target="_blank"><img src="/img/unplugged-responsive-site.png"></a></div> 
               <div class="text-container">
-                <h2 class="prj-title">"Unplugged" Responsive Web Site</h2>
+                <h2 class="prj-title">Unplugged - Responsive Web Site</h2>
                 <div class="skills-card"><span>Skills:</span> HTML, CSS, Media Queries, Flexbox</div>
                 <div class="tools-card"><span>Tools:</span> Sublime Text, GitHub</div>
                 <p class="prj-description">This is a multi-page website for a fictional corporate retreat. This is a responsive website that resizes for desktop, tablet and mobile screens to show the information in an easy to view format at all sizes. This was built using HTML, CSS, Flexbox, and media queries in Sublime text and hosted on GitHub pages. 
                 </p>
               </div>
               <div class="card-button">
-                <button class="btn">View Project</button>
+                <a href="https://tylerthietje.github.io/unplugged-site/" target="_blank"><button class="btn unplugged-responsive-site">View Project</button></a>
                 </div>
             </div>
     </section>
 
 <!-- Skills Section -->
 
+    <a id="skillz"></a>
     <section class="skills">
       <div class="skills-container">
-      <h2 class="skills-title">Skills and Tools</h2>        
-      <h3 class="skills-heading">Developer Skills</h3>      
+      <h2 class="skills-section-title">Skills and Tools</h2>        
+      <h3 class="skills-title">Developer Skills</h3>      
       <div class="skills-list">              
         <div class="skillz">HTML5</div>
         <div class="skillz">CSS3</div>
@@ -141,34 +151,75 @@
 
 <!-- About Section -->
 
+    <a id="about"></a>
     <section class="about">
-      <h2 class="about-title">About Me</h2>
-      <div class="about-headshot"><img src="/img/headshot 12_2021.jpeg" height="200"></div>
-      <div class="about-narrative">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. </p>
+      <figure class="about-image">
+      <div>
+        <img src="/img/headshot 12_2021.jpeg">
       </div>
+    </figure>
+      <div class="about-info">
+      <h2 class="about-title">Hi, I'm Tyler Thietje</h2>
+      <h3 class="about-subtitle"> I am a Front End Developer who is passionate about creating responsive websites and web applications.</h3>
+
+      <div class="about-text">
+        <p>Hello! I'm Tyler, a Front End Developer with a history of building things. It started out as building physical spaces through construction of residential houses and commercial buildings. I have since transitioned into the technology space. 
+        </p>
+
+        <p>
+        The first technology space I worked in was project management, where I oversaw the development of custom softwares to do things that ranged from helping students make tuition payments to assisting life insurance companies in serviciing their policies and policy holders. One thing I discovered along my journey was that I was always curious about coding. I have always been a how does it work type of person, and I could only hold back my curiousity for so long. 
+      </p>
+
+      <p>Once I started learning to code, I was hooked. I started with HTML and CSS. After that I moved on to JavaScript and React. I really enjoy being able to make beautiful, responsive websites that users can interact with to make their lives better! 
+      </p>
+      <p>If this sounds like what you are looking for, <a href="mailto:tylerthietje@gmail.com">Contact Me</a>
+         and let's talk about what we can build together!</p>
+          
+          
+      </div>
+    </div>
     </section>
 
     <!-- Contact Section -->
 
+    <a id="contact"></a>
     <section class="contact">
-        <h2>Contact Me</h2>
-        <div class="contact-info">
-          <ul>
-            <li>Tyler Thietje</li>
-            <li>tylerthietje@gmail.com</li>
-            <li>402.580.4208</li>
-          </ul>
+        <h2>Let's Connect</h2>
+        <div class="contact-wrapper">
+          <div class="contact-container">
+
+            <div class="contact-digital type">
+              <h3>Digital</h3>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:tylerthietje@gmail.com">Email</a></p>
+                <p><i class="fas fa-phone"></i></i> <a href="tel:402-580-4208">402.580.4208</a> </p>
+            </div>
+
+            <div class="contact-social type">
+              <h3>Social</h3>
+              <ul>
+                  <li><a href="https://github.com/tylerthietje?tab=repositories" target="_blank">
+                    <i class="fab fa-github"></i>
+                  </a></li>
+                  <li><a href="https://www.linkedin.com/in/tyler-thietje/" target="_blank"><i class="fab fa-linkedin-in"></i>
+                  </a></li>
+              </ul>
+            </div>
+
+          <div class="contact-address type">
+            <h3>In Person</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Lincoln, NE</p>
+            <p>Let's Meet Up!</p>
+          </div>
         </div>
-      <div class="contact-social">
-        <ul>
-            <li>Github</li>
-            <li>LinkedIn</li>
-        </ul>
-      </div>
+    </div>
     </section>
+
+    <footer>
+      <p>Copyright 2022 | Tyler Thietje</p>
+    </footer>
 
   </main> 
 </body>
+<script type="text/javascript" src="/js/script.js" defer="true"></script>
 </html>
 

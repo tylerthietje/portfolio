@@ -343,7 +343,6 @@ footer {
 @media only screen and (max-width: 768px) {
     .hero-title {
         font-size: 1em;
-        border: purple solid 1px;
     }
 
     .hero-subtitle {

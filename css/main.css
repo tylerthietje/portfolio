@@ -341,6 +341,16 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+    
+    nav ul {
+        justify-content: center;
+    }
+    
+    nav ul li {
+        font-size: .75em;
+        text-align: center;
+    }
+    
     .hero-title {
         font-size: 1em;
     }
@@ -370,17 +380,20 @@ footer {
 
 @media only screen and (max-width: 1200px) {
 
+    nav ul {
+        justify-content: center;
+
     .hero-title {
-        font-size: 2rem;
+        font-size: 2em;
     }
 
     .hero-subtitle {
-        font-size: 1rem;
+        font-size: 1em;
     }
 
     .about {
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }    }
+    }    
 }

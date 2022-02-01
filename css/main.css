@@ -60,6 +60,7 @@ nav ul li:nth-child(4) {
 header {
     background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)),url(/img/bg1.jpeg);
     background-size: cover;
+    background-position: center;
     height: 100vh;
     
 }
@@ -383,6 +384,7 @@ footer {
 
     nav ul {
         justify-content: center;
+    }
 
     .hero-title {
         font-size: 2em;

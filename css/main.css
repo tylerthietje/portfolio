@@ -352,11 +352,12 @@ footer {
     }
     
     .hero-title {
-        font-size: 1em;
+        font-size: 1.75em;
     }
 
     .hero-subtitle {
         font-size: .75rem;
+        font-weight: thin;
     }
 
     .skillz, .toolz {

@@ -264,15 +264,23 @@ figure {
     align-items: center;
 }
 
+.about-image {
+    flex: 1;
+}
+
 .about-image img {
     height: 500px;
 }
 
 .about-info {
-    min-width: 50%;
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
+}
+
+.about-subtitle {
+    font-style: italic;
 }
 
 
@@ -332,16 +340,49 @@ footer {
     color: #453E4F;
 }
 
-@media only screen and (min-width: 768px) {
-    .hero-content {
+@media only screen and (max-width: 768px) {
+    .hero-title {
+        font-size: 1em;
+        border: purple solid 1px;
+    }
+
+    .hero-subtitle {
+        font-size: .75rem;
+    }
+
+    .skillz, .toolz {
         width: 100%;
     }
 
-    .hero-title h1 {
-        font-size: 16px;
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .type {
+        padding-bottom: 50px;
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1200px) {
 
+    .hero-title {
+        font-size: 2rem;
+        border: purple solid 1px;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }    }
 }

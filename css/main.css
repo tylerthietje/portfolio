@@ -6,6 +6,11 @@ html {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -155,7 +160,7 @@ span {
   justify-content: center;
 }
 
-.btn {
+.view-project {
   background-color: #453e4f;
   border: #453e4f 2px solid;
   color: white;
@@ -168,7 +173,7 @@ span {
   transition-duration: 0.3s;
 }
 
-.btn:hover {
+.view-project:hover {
   background-color: white;
   color: #453e4f;
   border: #453e4f 2px solid;

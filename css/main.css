@@ -32,38 +32,26 @@ nav ul {
   font-size: 16px;
 }
 
-nav ul li {
-  padding: 10px 20px;
-  border-radius: 50px;
-}
-
-nav ul li:hover {
-  background-color: #21f721;
-}
-
 nav ul li a {
   text-decoration: none;
+  color: inherit;
+}
+
+.nav-item {
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 25px;
   color: white;
+  border: 1px solid #21f721;
+  transition-duration: 0.3s;
 }
 
-nav ul li a:nth-child(4) {
-  color: black;
-}
-
-nav ul li:nth-child(4) {
+.nav-item:hover {
   background-color: #21f721;
-  padding: 9px;
-  margin-top: 0px;
-  border-radius: 50px;
   color: black;
   font-weight: bold;
-  border: 2px solid #21f721;
 }
 
-nav ul li:nth-child(4):hover {
-  background-color: black;
-  border: 2px solid #21f721;
-}
 
 /* HERO AREA */
 
@@ -280,6 +268,7 @@ figure {
   height: 600px;
   border-radius: 50%;
   border: 2px solid white;
+  box-shadow: 2px 2px 7px 4px rgba(20, 20, 20, 0.4);
 }
 
 .about-info {

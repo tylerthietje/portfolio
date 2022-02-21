@@ -43,7 +43,7 @@ nav ul li a {
 }
 
 .nav-item {
-  padding: 10px;
+  padding: 10px 20px;
   margin-right: 20px;
   border-radius: 25px;
   color: white;
@@ -54,7 +54,6 @@ nav ul li a {
 .nav-item:hover {
   background-color: #21f721;
   color: black;
-  font-weight: bold;
 }
 
 
@@ -130,6 +129,11 @@ header {
   border-radius: 25px;
   text-align: left;
   box-shadow: 2px 2px 7px 4px rgba(20, 20, 20, 0.4);
+}
+
+.card-container:hover {
+  box-shadow: 4px 4px 17px 14px rgba(20, 20, 20, 0.4);
+
 }
 
 .skills-card {
@@ -226,7 +230,7 @@ span {
   width: 30%;
   padding: 20px;
   margin: 10px;
-  border-radius: 2px;
+  border-radius: 20px;
   font-weight: bolder;
   text-transform: uppercase;
   color: #453e4f;

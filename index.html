@@ -1,259 +1,410 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><Tyler Thietje | Web Developer/></title>
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/main.css" />
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,700;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,700;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-  <main>
-    <header>
+  <body>
+    <main>
+      <header>
         <nav>
           <ul>
             <li class="nav-item"><a href="#projects">Projects</a></li>
             <li class="nav-item"><a href="#skillz">Skills</a></li>
             <li class="nav-item"><a href="#about">About</a></li>
-            <li class="nav-item"><a href="https://docs.google.com/document/d/1x2iH3x0dlsDhKJpKwE29MnbY_1zY0GiYIVb5Yjr4xpM/edit?usp=sharing" target="_blank">Resume</a></li>
-            <li class="nav-item"><a href="#contact" id="contact-link">Contact Me</a></li>
+            <li class="nav-item">
+              <a
+                href="https://docs.google.com/document/d/1x2iH3x0dlsDhKJpKwE29MnbY_1zY0GiYIVb5Yjr4xpM/edit?usp=sharing"
+                target="_blank"
+                >Resume</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#contact" id="contact-link">Contact Me</a>
+            </li>
           </ul>
         </nav>
 
         <div class="hero">
           <div class="hero-content">
             <h1 class="hero-title">Hello, I'm Tyler Thietje!</h1>
-            <h2 class="hero-subtitle">I am a Front End Web Developer who builds custom, attractive, and responsive websites to fit your needs.</h2>
-          </div>        
+            <h2 class="hero-subtitle">
+              I am a Front End Web Developer who builds custom, attractive, and
+              responsive websites to fit your needs.
+            </h2>
+          </div>
         </div>
-    </header>
+      </header>
 
+      <!--Portfolio section-->
 
-    <!--Portfolio section-->  
-
-    <a id="projects"></a>
-    <section class="portfolio">
-
+      <a id="projects"></a>
+      <section class="portfolio">
         <h2 class="portfolio-title">Projects</h2>
 
         <div class="project-cards">
-
           <!-- Sticky Notes App -->
-            <div class="card-container">
-              <div class="image">
-                <a href="https://yf6sh.csb.app/" target="_blank">
-                  <img src="/img/sticky-notes-app.png" alt="sticky notes">
-                </a>
-              </div> 
-              <div class="text-container">
-                <h2 class="prj-title">Sticky Notes App</h2>
-                <div class="skills-card"><span>Skills:</span> JavaScript, React, CSS, HTML</div>
-                <div class="tools-card"><span>Tools:</span> CodeSandbox</div>
-                <p class="prj-description">This is a Greenfield project built with React that allows a user to create, delete, and search sticky notes. To create this app I used JavaScript and React primarily in the CodeSandbox environment. This allowed me to practice functional components, stateful components, props, state, and ES6 modules and syntax. 
-                </p>
-              </div>
-              <div class="card-button">                
-                  <a href="https://yf6sh.csb.app/" target="_blank" class="view-project">
-                    View Project
-                  </a>
-                </div>
+          <div class="card-container">
+            <div class="image">
+              <a href="https://yf6sh.csb.app/" target="_blank">
+                <img src="/img/sticky-notes-app.png" alt="sticky notes" />
+              </a>
             </div>
-
-            <!-- Hotel Booking UI -->
-            <div class="card-container">
-              <div class="image"><a href="https://4ghc2.csb.app/" target="_blank"><img src="/img/hotel-booking-ui.png" alt="Hotel Booking UI"></a></div> 
-              <div class="text-container">
-                <h2 class="prj-title">Hotel Booking UI</h2>
-                <div class="skills-card"><span>Skills:</span> JavaScript, React, CSS, HTML</div>
-                <div class="tools-card"><span>Tools:</span> CodeSandbox</div>
-                <p class="prj-description">This is an example UI from a fictional Hotel search site. The UI allows you to search for hotel rooms and  returns results that match your search criteria that you entered. This was built using React and Javascript in the CodeSandbox environment.
-                </p>
+            <div class="text-container">
+              <h2 class="prj-title">Sticky Notes App</h2>
+              <div class="skills-card">
+                <span>Skills:</span> JavaScript, React, CSS, HTML
               </div>
-              <div class="card-button">
-                <a href="https://4ghc2.csb.app/" target="_blank" class="view-project">
-                  View Project
-                </a>
-                </div>
+              <div class="tools-card"><span>Tools:</span> CodeSandbox</div>
+              <p class="prj-description">
+                This is a Greenfield project built with React that allows a user
+                to create, delete, and search sticky notes. To create this app I
+                used JavaScript and React primarily in the CodeSandbox
+                environment. This allowed me to practice functional components,
+                stateful components, props, state, and ES6 modules and syntax.
+              </p>
             </div>
-
-            <!-- GitHub Repo Gallery -->
-            <div class="card-container">
-              <div class="image"><a href="https://tylerthietje.github.io/github-repo-gallery/" target="_blank"><img src="/img/github-repo-gallery.png" alt="GitHub Repo"></a></div> 
-              <div class="text-container">
-                <h2 class="prj-title">GitHub Repo Gallery</h2>
-                <div class="skills-card"><span>Skills:</span> HTML, CSS, JavaScript, APIs, JSON</div>
-                <div class="tools-card"><span>Tools:</span> VS Code, Git/Github</div>
-                <p class="prj-description">This project showcases the repositories in my GitHub account. Additionally, you can click on each project to see additional details about it on a separate page. Finally, there is a search function to search for projects by keyword. This was built using HTML, CSS and JavaScript. 
-                </p>
-              </div>
-              <div class="card-button">
-                <a href="https://tylerthietje.github.io/github-repo-gallery/" target="_blank" class="view-project">
-                  View Project
-                </a>
-              </div>
-            </div>
-
-            <!-- Guess the Word Game -->
-            <div class="card-container">
-              <div class="image"><a href="https://tylerthietje.github.io/guess-the-word/" target="_blank"><img src="/img/guess-the-word.png" alt="Guess the Word Game"></a></div> 
-              <div class="text-container">
-                <h2 class="prj-title">Guess the Word Game</h2>
-                <div class="skills-card"><span>Skills:</span> HTML, CSS, JavaScript, APIs, JSON</div>
-                <div class="tools-card"><span>Tools:</span> VS Code, Git/Github</div>
-                <p class="prj-description">This is a fun and simple game where the goal is to guess the random word one letter at a time, in 8 guesses or less. Whether you win or lose, an appropriate message is displayed and you are given the option to play again. This was built using HTML, CSS, JavaScript, APIs and JSON files in a VSCode environment and hosted on GitHub pages.
-                </p>
-              </div>
-              <div class="card-button">
-                <a href="https://tylerthietje.github.io/guess-the-word/" target="_blank" class="view-project">
-                  View Project
-                </a>
-                </div>
-              </div>
-
-            <!-- Countdown Timer -->
-            <div class="card-container">
-              <div class="image"><a href="https://tylerthietje.github.io/countdown-timer/" target="_blank"><img src="/img/countdown-img.png" alt="Countdown Timer"></a></div> 
-              <div class="text-container">
-                <h2 class="prj-title">Countdown Timer</h2>
-                <div class="skills-card"><span>Skills:</span> HTML, CSS, JavaScript</div>
-                <div class="tools-card"><span>Tools:</span> VS Code, Git/Github</div>
-                <p class="prj-description">This is a useful application that counts down to a date in the future and displays the remaining time to the user. Such timers are used for contests, giveaways, or new product launches. This was built using HTML, CSS, and JavaScript in a VSCode environment and hosted on GitHub pages.
-                </p>
-              </div>
-              <div class="card-button">
-                <a href="https://tylerthietje.github.io/guess-the-word/" target="_blank" class="view-project">
-                  View Project
-                </a>
-                </div>
-              </div>
-
-            <!-- Unplugged Responsive Website -->
-            <div class="card-container">
-              <div class="image"><a href="https://tylerthietje.github.io/unplugged-site/" target="_blank"><img src="/img/unplugged-responsive-site.png" alt="Unplugged Website"></a></div> 
-              <div class="text-container">
-                <h2 class="prj-title">Unplugged Web Site</h2>
-                <div class="skills-card"><span>Skills:</span> HTML, CSS, Media Queries, Flexbox</div>
-                <div class="tools-card"><span>Tools:</span> Sublime Text, GitHub</div>
-                <p class="prj-description">This is a multi-page responsive website for a fictional corporate retreat. Being responsive allows the site to resize for desktop, tablet and mobile screens to show the information in an appropriate format at all sizes. This was built using HTML, CSS, Flexbox, and media queries in Sublime text and hosted on GitHub pages. 
-                </p>
-              </div>
-              <div class="card-button">
-                <a href="https://tylerthietje.github.io/unplugged-site/" target="_blank" class="view-project">
-                  View Project
-                </a>
-                </div>
+            <div class="card-button">
+              <a
+                href="https://yf6sh.csb.app/"
+                target="_blank"
+                class="view-project"
+              >
+                View Project
+              </a>
             </div>
           </div>
 
-    </section>
+          <!-- Hotel Booking UI -->
+          <div class="card-container">
+            <div class="image">
+              <a href="https://4ghc2.csb.app/" target="_blank"
+                ><img src="/img/hotel-booking-ui.png" alt="Hotel Booking UI"
+              /></a>
+            </div>
+            <div class="text-container">
+              <h2 class="prj-title">Hotel Booking UI</h2>
+              <div class="skills-card">
+                <span>Skills:</span> JavaScript, React, CSS, HTML
+              </div>
+              <div class="tools-card"><span>Tools:</span> CodeSandbox</div>
+              <p class="prj-description">
+                This is an example UI from a fictional Hotel search site. The UI
+                allows you to search for hotel rooms and returns results that
+                match your search criteria that you entered. This was built
+                using React and Javascript in the CodeSandbox environment.
+              </p>
+            </div>
+            <div class="card-button">
+              <a
+                href="https://4ghc2.csb.app/"
+                target="_blank"
+                class="view-project"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
 
-<!-- Skills Section -->
+          <!-- GitHub Repo Gallery -->
+          <div class="card-container">
+            <div class="image">
+              <a
+                href="https://tylerthietje.github.io/github-repo-gallery/"
+                target="_blank"
+                ><img src="/img/github-repo-gallery.png" alt="GitHub Repo"
+              /></a>
+            </div>
+            <div class="text-container">
+              <h2 class="prj-title">GitHub Repo Gallery</h2>
+              <div class="skills-card">
+                <span>Skills:</span> HTML, CSS, JavaScript, APIs, JSON
+              </div>
+              <div class="tools-card">
+                <span>Tools:</span> VS Code, Git/Github
+              </div>
+              <p class="prj-description">
+                This project showcases the repositories in my GitHub account.
+                Additionally, you can click on each project to see additional
+                details about it on a separate page. Finally, there is a search
+                function to search for projects by keyword. This was built using
+                HTML, CSS and JavaScript.
+              </p>
+            </div>
+            <div class="card-button">
+              <a
+                href="https://tylerthietje.github.io/github-repo-gallery/"
+                target="_blank"
+                class="view-project"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
 
-    <a id="skillz"></a>
-    <section class="skills">
-      <div class="skills-container">
-      <h2 class="skills-section-title">Skills and Tools</h2>        
-      <h3 class="skills-title">Developer Skills</h3>      
-      <div class="skills-list">              
-        <div class="skillz">HTML5</div>
-        <div class="skillz">CSS3</div>
-        <div class="skillz">Flexbox</div>
-        <div class="skillz">JavaScript</div>
-        <div class="skillz">APIs</div>
-        <div class="skillz">React</div>
-        <div class="skillz">Git and Github</div>
-        <div class="skillz">Responsive Design</div>
-      </div>
-            
-      <h3 class="toolz-title">Tech Stack and Tools</h3>
-      <div class="toolz-list">
-        <div class="toolz">Photoshop</div>
-        <div class="toolz">Figma</div>
-        <div class="toolz">Adobe XD</div>
-        <div class="toolz">VS Code</div>
-      </div>
-    </div>
-    </section>
+          <!-- Guess the Word Game -->
+          <div class="card-container">
+            <div class="image">
+              <a
+                href="https://tylerthietje.github.io/guess-the-word/"
+                target="_blank"
+                ><img src="/img/guess-the-word.png" alt="Guess the Word Game"
+              /></a>
+            </div>
+            <div class="text-container">
+              <h2 class="prj-title">Guess the Word Game</h2>
+              <div class="skills-card">
+                <span>Skills:</span> HTML, CSS, JavaScript, APIs, JSON
+              </div>
+              <div class="tools-card">
+                <span>Tools:</span> VS Code, Git/Github
+              </div>
+              <p class="prj-description">
+                This is a fun and simple game where the goal is to guess the
+                random word one letter at a time, in 8 guesses or less. Whether
+                you win or lose, an appropriate message is displayed and you are
+                given the option to play again. This was built using HTML, CSS,
+                JavaScript, APIs and JSON files in a VSCode environment and
+                hosted on GitHub pages.
+              </p>
+            </div>
+            <div class="card-button">
+              <a
+                href="https://tylerthietje.github.io/guess-the-word/"
+                target="_blank"
+                class="view-project"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
 
-<!-- About Section -->
+          <!-- Countdown Timer -->
+          <div class="card-container">
+            <div class="image">
+              <a
+                href="https://tylerthietje.github.io/countdown-timer/"
+                target="_blank"
+                ><img src="/img/countdown-img.png" alt="Countdown Timer"
+              /></a>
+            </div>
+            <div class="text-container">
+              <h2 class="prj-title">Countdown Timer</h2>
+              <div class="skills-card">
+                <span>Skills:</span> HTML, CSS, JavaScript
+              </div>
+              <div class="tools-card">
+                <span>Tools:</span> VS Code, Git/Github
+              </div>
+              <p class="prj-description">
+                This is a useful application that counts down to a date in the
+                future and displays the remaining time to the user. Such timers
+                are used for contests, giveaways, or new product launches. This
+                was built using HTML, CSS, and JavaScript in a VSCode
+                environment and hosted on GitHub pages.
+              </p>
+            </div>
+            <div class="card-button">
+              <a
+                href="https://tylerthietje.github.io/guess-the-word/"
+                target="_blank"
+                class="view-project"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
 
-    <a id="about"></a>
-    <section class="about">
-      <figure class="about-image">
-      <div>
-        <img src="/img/headshot-12_2021.jpeg" alt="headshot">
-      </div>
-    </figure>
-      <div class="about-info">
-        <h2 class="about-title">Hi, I'm Tyler Thietje</h2>
-        <h3 class="about-subtitle"> I am a Front End Developer who is passionate about creating responsive websites and web applications.</h3>
+          <!-- Unplugged Responsive Website -->
+          <div class="card-container">
+            <div class="image">
+              <a
+                href="https://tylerthietje.github.io/unplugged-site/"
+                target="_blank"
+                ><img
+                  src="/img/unplugged-responsive-site.png"
+                  alt="Unplugged Website"
+              /></a>
+            </div>
+            <div class="text-container">
+              <h2 class="prj-title">Unplugged Web Site</h2>
+              <div class="skills-card">
+                <span>Skills:</span> HTML, CSS, Media Queries, Flexbox
+              </div>
+              <div class="tools-card">
+                <span>Tools:</span> Sublime Text, GitHub
+              </div>
+              <p class="prj-description">
+                This is a multi-page responsive website for a fictional
+                corporate retreat. Being responsive allows the site to resize
+                for desktop, tablet and mobile screens to show the information
+                in an appropriate format at all sizes. This was built using
+                HTML, CSS, Flexbox, and media queries in Sublime text and hosted
+                on GitHub pages.
+              </p>
+            </div>
+            <div class="card-button">
+              <a
+                href="https://tylerthietje.github.io/unplugged-site/"
+                target="_blank"
+                class="view-project"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <div class="about-text">
-        <p>Hello! I'm Tyler, a Front End Developer with a history of building things. It started as building physical spaces through the construction of residential houses and commercial buildings. I have since transitioned into the technology space. 
-        </p>
+      <!-- Skills Section -->
 
-        <p>
-        The first technology space I worked in was project management, where I oversaw the development of custom software to do things that ranged from helping students make tuition payments to assisting life insurance companies in servicing their policies and policyholders. One thing I discovered along my journey was that I was always curious about coding. I have always been a "how does it work" type of person, and I could only hold back my curiosity for so long. 
-      </p>
+      <a id="skillz"></a>
+      <section class="skills">
+        <div class="skills-container">
+          <h2 class="skills-section-title">Skills and Tools</h2>
+          <h3 class="skills-title">Developer Skills</h3>
+          <div class="skills-list">
+            <div class="skillz">HTML5</div>
+            <div class="skillz">CSS3</div>
+            <div class="skillz">Flexbox</div>
+            <div class="skillz">JavaScript</div>
+            <div class="skillz">APIs</div>
+            <div class="skillz">React</div>
+            <div class="skillz">Git and Github</div>
+            <div class="skillz">Responsive Design</div>
+          </div>
 
-      <p>Once I started learning to code, I was hooked. I started with HTML and CSS. After that, I moved on to JavaScript and React. I enjoy being able to make beautiful, responsive websites that users can interact with to make their lives better! 
-      </p>
-      <p>If this sounds like what you are looking for, <a href="mailto:tylerthietje@gmail.com">Contact Me</a>
-         , and let's talk about what we can build together!</p>
-          
-          
-      </div>
-    </div>
-    </section>
+          <h3 class="toolz-title">Tech Stack and Tools</h3>
+          <div class="toolz-list">
+            <div class="toolz">Photoshop</div>
+            <div class="toolz">Figma</div>
+            <div class="toolz">Adobe XD</div>
+            <div class="toolz">VS Code</div>
+          </div>
+        </div>
+      </section>
 
-    <!-- Contact Section -->
+      <!-- About Section -->
 
-    <a id="contact"></a>
-    <section class="contact">
+      <a id="about"></a>
+      <section class="about">
+        <figure class="about-image">
+          <div>
+            <img src="/img/headshot-12_2021.jpeg" alt="headshot" />
+          </div>
+        </figure>
+        <div class="about-info">
+          <h2 class="about-title">Hi, I'm Tyler Thietje</h2>
+          <h3 class="about-subtitle">
+            I am a Front End Developer who is passionate about creating
+            responsive websites and web applications.
+          </h3>
+
+          <div class="about-text">
+            <p>
+              Hello! I'm Tyler, a Front End Developer with a history of building
+              things. It started as building physical spaces through the
+              construction of residential houses and commercial buildings. I
+              have since transitioned into the technology space.
+            </p>
+
+            <p>
+              The first technology space I worked in was project management,
+              where I oversaw the development of custom software to do things
+              that ranged from helping students make tuition payments to
+              assisting life insurance companies in servicing their policies and
+              policyholders. One thing I discovered along my journey was that I
+              was always curious about coding. I have always been a "how does it
+              work" type of person, and I could only hold back my curiosity for
+              so long.
+            </p>
+
+            <p>
+              Once I started learning to code, I was hooked. I started with HTML
+              and CSS. After that, I moved on to JavaScript and React. I enjoy
+              being able to make beautiful, responsive websites that users can
+              interact with to make their lives better!
+            </p>
+            <p>
+              If this sounds like what you are looking for,
+              <span></span><a href="mailto:tylerthietje@gmail.com">Contact Me</a></span> , and let's
+              talk about what we can build together!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+
+      <a id="contact"></a>
+      <section class="contact">
         <h2>Let's Connect</h2>
         <div class="contact-wrapper">
           <div class="contact-container">
-
             <div class="contact-digital type">
               <h3>Digital</h3>
-                <p><i class="fas fa-envelope"></i> <a href="mailto:tylerthietje@gmail.com">Email</a></p>
-                <p><i class="fas fa-phone"></i><a href="tel:402-580-4208">402.580.4208</a> </p>
+              <p>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:tylerthietje@gmail.com">Email</a>
+              </p>
+              <p>
+                <i class="fas fa-phone"></i
+                ><a href="tel:402-580-4208">402.580.4208</a>
+              </p>
             </div>
 
             <div class="contact-social type">
               <h3>Social</h3>
               <ul>
-                  <li><a href="https://github.com/tylerthietje?tab=repositories" target="_blank">
+                <li>
+                  <a
+                    href="https://github.com/tylerthietje?tab=repositories"
+                    target="_blank"
+                  >
                     <i class="fab fa-github"></i>
-                  </a></li>
-                  <li><a href="https://www.linkedin.com/in/tyler-thietje/" target="_blank"><i class="fab fa-linkedin-in"></i>
-                  </a></li>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/tyler-thietje/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
               </ul>
             </div>
 
-          <div class="contact-address type">
-            <h3>In Person</h3>
-            <p><i class="fas fa-map-marker-alt"></i>Lincoln, NE</p>
-            <p>Let's Meet Up!</p>
+            <div class="contact-address type">
+              <h3>In Person</h3>
+              <p><i class="fas fa-map-marker-alt"></i>Lincoln, NE</p>
+              <p>Let's Meet Up!</p>
+            </div>
           </div>
         </div>
-    </div>
-    </section>
+      </section>
 
-    <footer>
-      <p>Copyright 2022 | Tyler Thietje</p>
-    </footer>
-
-  </main> 
-</body>
-<script src="/js/script.js"></script>
+      <footer>
+        <p>Copyright 2022 | Tyler Thietje</p>
+      </footer>
+    </main>
+  </body>
+  <script src="/js/script.js"></script>
 </html>
-

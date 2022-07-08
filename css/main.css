@@ -56,7 +56,6 @@ nav ul li a {
   color: black;
 }
 
-
 /* HERO AREA */
 
 header {
@@ -133,7 +132,6 @@ header {
 
 .card-container:hover {
   box-shadow: 4px 4px 17px 14px rgba(20, 20, 20, 0.4);
-
 }
 
 .skills-card {
@@ -296,6 +294,14 @@ figure {
   line-height: 1.75;
 }
 
+.about-text a {
+  color: blue;
+}
+
+.about-text a:hover {
+  text-decoration: underline;
+}
+
 /* CONTACT */
 
 .contact {
@@ -404,10 +410,28 @@ footer {
   .hero-subtitle {
     font-size: 1em;
   }
+}
 
-  .about {
+/* MOBILE */
+@media only screen and (max-width: 450px) {
+  section.about {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+  }
+
+  .about-image img {
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 2px 2px 7px 4px rgba(20, 20, 20, 0.4);
+  }
+
+  .about-info {
+    min-width: 300px;
+    margin-top: 25px;
+  } 
+
+  .about-title, .about-subtitle {
+    text-align: center;
   }
 }
